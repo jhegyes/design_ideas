@@ -74,11 +74,10 @@
         <mxCell id="4ci64t6p32gvj298nVOF-29" value="ARE BLANKS FILLED?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="165" y="560" width="150" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4ci64t6p32gvj298nVOF-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ci64t6p32gvj298nVOF-31">
+        <mxCell id="4ci64t6p32gvj298nVOF-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ci64t6p32gvj298nVOF-32">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="760" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="640" y="700" />
               <mxPoint x="441" y="700" />
             </Array>
           </mxGeometry>
@@ -93,9 +92,6 @@
         </mxCell>
         <mxCell id="4ci64t6p32gvj298nVOF-31" value="ANY LIVES LEFT?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="560" width="160" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="4ci64t6p32gvj298nVOF-32" value="GAME OVER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="760" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4ci64t6p32gvj298nVOF-42" value="YES" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="380" width="60" height="30" as="geometry" />
@@ -114,6 +110,18 @@
         </mxCell>
         <mxCell id="4ci64t6p32gvj298nVOF-47" value="NO" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="105" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4ci64t6p32gvj298nVOF-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4ci64t6p32gvj298nVOF-31" target="4ci64t6p32gvj298nVOF-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="760" as="targetPoint" />
+            <mxPoint x="640" y="650" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="640" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4ci64t6p32gvj298nVOF-32" value="GAME OVER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="740" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
